@@ -45,10 +45,8 @@ function SignIn({ BASE_URL }) {
                     </div>
 
                     <div className="col-lg-6 mb-5 mb-lg-0 position-relative">
-                        <div id="radius-shape-1" className="position-absolute rounded-circle shadow-5-strong"></div>
-                        <div id="radius-shape-2" className="position-absolute shadow-5-strong"></div>
-
-                        <div className="card bg-glass">
+                
+                        <div className="card login-cards bg-glass">
                             <div className="card-body px-4 py-5 px-md-5">
                                 <form>
                                     <div className="form-outline mb-4">
@@ -71,14 +69,14 @@ function SignIn({ BASE_URL }) {
                                     <div className="form-outline mb-4">
                                         <label className="form-label" >{error}</label>
                                     </div>
-                                    <div className="d-flex justify-content-center links">
+                                    <div className="d-flex justify-content-center text-dark links">
                                         Don't have an account?<a href="/signup">Sign Up</a>
                                     </div>
                                     <div className="d-flex justify-content-center">
                                         <a href="/forgotpassword">Forgot your password?</a>
                                     </div>
                                     <div className="form-check d-flex justify-content-center mb-4">
-                                        <p className='m-2'>username:user1</p>
+                                        <p className='m-2'>username:user@gmail.com</p>
                                         <p className='m-2'>password:user123</p>
                                     </div>
                                 </form>

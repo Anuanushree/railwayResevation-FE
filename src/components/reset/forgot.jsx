@@ -35,10 +35,8 @@ function ForgotPassword({ BASE_URL }) {
                     </div>
 
                     <div className="col-lg-6 mb-5 mb-lg-0 position-relative">
-                        <div id="radius-shape-1" className="position-absolute rounded-circle shadow-5-strong"></div>
-                        <div id="radius-shape-2" className="position-absolute shadow-5-strong"></div>
-
-                        <div className="card bg-glass">
+                       
+                        <div className="card login-cards bg-glass">
                             <div className="card-body px-4 py-5 px-md-5">
                                 <form onSubmit={handleForgotPassword}>
 
@@ -53,7 +51,7 @@ function ForgotPassword({ BASE_URL }) {
                                     <div className="form-outline mb-4">
                                         <label className="form-label" >{error}</label>
                                     </div>
-                                    <div className="d-flex justify-content-center links">
+                                    <div className="d-flex justify-content-center text-dark links">
                                         once your password update through your mail ,back to <a href="/">Sign In</a>
 
                                     </div>

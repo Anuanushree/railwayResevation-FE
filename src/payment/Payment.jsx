@@ -44,8 +44,8 @@ function Payment({BASE_URL}) {
     }
     return (
         <>
-            <div className="container p-0">
-                <div className="card px-4">
+            <div className="container m-4 payment-body payment-container p-0">
+                <div className="card payment-card px-4">
                     <p className="h8 py-3">Payment Details</p>
                     <div className="row gx-3">
                         <div className="col-12">

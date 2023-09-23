@@ -12,24 +12,33 @@
               hsl(218, 41%, 20%) 75%,
               hsl(218, 41%, 19%) 80%,
               transparent 100%);
-            background-size: 100% 100%;
-              background-image: url('./assets/Train-Ticket-Booking-3.jpg');
+      background-size: 100% 100%;
+      background-image: url('./assets/Train-Ticket-Booking-3.jpg');
   }
 
   .loginbg {
       z-index: 10;
   }
-.done{
-    margin-left:20rem;
- width: 100px;
-    
 
-}
+  .done {
+      margin-left: 20rem;
+      width: 100px;
+
+
+  }
+
   .login1 {
       color: hsl(218, 81%, 95%);
       /* color: hsl(218, 81%, 75%) */
       /* color: hsl(218, 81%, 85%) */
   }
+
+.login-cards {
+    max-width: 69vh;
+    margin: auto;
+    color: black;
+    border-radius: 20 px;
+}
 
   #radius-shape-1 {
       height: 220px;
@@ -59,9 +68,9 @@
       color: #000;
       overflow-x: hidden;
       height: 100%;
-      background-image: url(".//assets/train3.webp");
+      background-image: url("./assets/train3.webp");
       background-repeat: no-repeat;
-      background-size: 100% 100%;
+      background-size: 100rem 100%;
       overflow-x: scroll;
   }
 
@@ -140,7 +149,7 @@
 
   .form-card {
       margin-left: 10px;
-      margin-right: 10px
+      margin-right: 10px;
   }
 
   .form-card input,
@@ -222,30 +231,4 @@
       border-radius: 5px
   }
 
-  .radio-group {
-      position: relative;
-      margin-bottom: 25px
-  }
-
-  .radio {
-      display: inline-block;
-      border-radius: 6px;
-      box-sizing: border-box;
-      border: 2px solid lightgrey;
-      cursor: pointer;
-      margin: 12px 25px 12px 0px
-  }
-
-  .radio:hover {
-      box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.2)
-  }
-
-  .radio.selected {
-      box-shadow: 0px 0px 0px 1px rgba(0, 0, 155, 0.4);
-      border: 2px solid blue
-  }
-
-  .label-radio {
-      font-weight: bold;
-      color: #000000
-  }
+ 

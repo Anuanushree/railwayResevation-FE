@@ -56,10 +56,8 @@ function ResetPassword({ user, BASE_URL }) {
                     </div>
 
                     <div className="col-lg-6 mb-5 mb-lg-0 position-relative">
-                        <div id="radius-shape-1" className="position-absolute rounded-circle shadow-5-strong"></div>
-                        <div id="radius-shape-2" className="position-absolute shadow-5-strong"></div>
 
-                        <div className="card bg-glass">
+                        <div className="card login-cards bg-glass">
                             <div className="card-body px-4 py-5 px-md-5">
                                 <form onSubmit={handleSignIn}>
 
@@ -75,13 +73,13 @@ function ResetPassword({ user, BASE_URL }) {
                                             onChange={(e) => setCpassword(e.target.value)} />
                                         <label className="form-label" >Confirm Password</label>
                                     </div>
-                                   <button type="submit" className="btn btn-primary btn-block mb-4">
+                                    <button type="submit" className="btn btn-primary btn-block mb-4">
                                         Sign In
                                     </button>
                                     <div className="form-outline mb-4">
                                         <label className="form-label" >{error}</label>
                                     </div>
-                                    <div className="d-flex justify-content-center links">
+                                    <div className="d-flex justify-content-center links text-dark">
                                         If the link is invalid .pls,rend the mail:<a href="/forgotpassword">resend mail</a>
 
                                     </div>

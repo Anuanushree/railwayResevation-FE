@@ -61,8 +61,15 @@ function BookingDetails({ BASE_URL }) {
                                                 <td>{data.timing}</td>
                                                 <td>{data.seat}</td>
                                                 <td>{data.price}</td>
-                                                <td>{data.paymentStatus}</td>
-                                            </tr>
+
+                                                {
+                                                    (data.paymentStatus == "payment successfully done") ?
+                                                        (
+                                                            <td>Paid</td>
+                                                        ) :
+                                                        <td><a href='/payment'> not paid</a></td>}
+
+                                           </tr>
                                         ))
                                     }
 
