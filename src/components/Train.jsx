@@ -55,10 +55,10 @@ function Train({BASE_URL}) {
                 <div className="row d-flex justify-content-center">
                     <div className="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
                         <h3>INDIAN RAILWAYS PASSENGER RESERVATION ENQUIRY</h3>
-                        <h4><marquee className=" pt-4" width="80%" direction="left" height="100px">
-                            <marquee class="red-text" direction="left" height="100px">
+                        <h4>
+                            <marquee className="red-text" direction="left" height="100px">
                                 Please help Indian Railway and government of India in moving towards and cashless economy
-                            </marquee>
+
                         </marquee></h4>
                         <div className="card">
                             <h5 className="text-center mb-4">Powering world-class companies</h5>
